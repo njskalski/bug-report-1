@@ -16,5 +16,7 @@ fn main() {
 
     siv.add_global_callback(cursive::event::Event::CtrlChar('p'), |_| { debug!("ctrl-p pressed"); });
     siv.add_global_callback(cursive::event::Event::CtrlChar('P'), |_| { debug!("shift-ctrl-p pressed"); });
+    siv.add_global_callback(cursive::event::Event::CtrlChar('v'), |_| { debug!("ctrl-v pressed"); });
+    siv.add_global_callback(cursive::event::Event::CtrlChar('V'), |_| { debug!("shift-ctrl-V pressed"); });
     siv.run();
 }
