@@ -1,0 +1,9 @@
+[package]
+name = "bug1"
+version = "0.1.0"
+authors = ["Andrzej J Skalski <njskalski@google.com>"]
+
+[dependencies]
+cursive = "0.8"
+log = "0.4.1"
+stderrlog = "0.4.0"
